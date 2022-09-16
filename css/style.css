@@ -16,6 +16,12 @@ li {
     border: 1px solid red;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1918px;
+}  
+
+
 /*Header*/
 /*Header*/
 /*Header*/
@@ -27,10 +33,29 @@ header {
 
 header .container-top {
     height: 100%;
-    margin: 0px 20px 0px;
+    margin: 0px 10px 0px;
 }
 
 header .container-top {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+header .container-top nav ul {
+    display: flex;
+}
+
+header .container-top li {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+header .container-top nav .left-list li {
+    margin-right: 40px;
+}
+
+header .container-top nav .right-list li {
+    margin-left: 40px;
 }
