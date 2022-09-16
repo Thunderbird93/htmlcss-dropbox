@@ -29,3 +29,8 @@ header .container-top {
     height: 100%;
     margin: 0px 20px 0px;
 }
+
+header .container-top {
+    display: flex;
+    justify-content: space-between;
+}
