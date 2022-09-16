@@ -39,7 +39,7 @@ header {
 }
 
 header a {
-    color: #828283;
+    color: #828282; 
 }
         
 
@@ -52,6 +52,14 @@ header .container-top {
 header .container-top {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+header .container-top .right-list .blu {
+    height: 32px;
+    width: 70px;
+    background-color: #275FF6;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -101,6 +109,7 @@ header .container-top nav .right-list li {
 .jumbotron .container-jumbotron .colonna p {
     font-size: 18px;
     margin-bottom: 27px;
+    color: #212428;
 }
 
 
@@ -114,14 +123,6 @@ header .container-top nav .right-list li {
     font-size: 75px;
     margin-top: 40px;
 }
-
-/* Per dopo
-.colonna {
-    column-count: 2;
-    column-gap: 10px;
-    column-width: 390px;
-}
-*/
 
 .jumbotron .container-jumbotron .btn-j {
     height: 43px;
