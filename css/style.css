@@ -7,3 +7,25 @@
 img {
     max-width: 100%;
 }
+
+li {
+    list-style: none;
+}
+
+.debug {
+    border: 1px solid red;
+}
+
+/*Header*/
+/*Header*/
+/*Header*/
+
+header {
+    height: 80px;
+    background-color: white;
+}
+
+header .container-top {
+    height: 100%;
+    margin: 0px 20px 0px;
+}
