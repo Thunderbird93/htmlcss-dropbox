@@ -193,3 +193,41 @@ main .container .fatturazione .grigio {
     border: 2px solid #CFD0D3;
     margin-left: 49px;
 }
+
+main .container .colonne {
+    columns: 3;
+    column-gap: 50px;
+}
+
+main .container .colonne .colonna {
+    height: 952px;
+    width: 296px;
+    border: 1px solid #D9D9DB;
+}
+
+main .container .colonne .colonna .user{
+    height: 40px;
+    border-bottom: 1px solid #D9D9DB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .container .colonne .colonna .offerta {
+    margin: 35px;
+}
+
+main .container .colonne .colonna .offerta .nome-offerta {
+    font-size: 20px;
+}
+
+main .container .colonne .colonna .offerta .prezzo {
+    font-weight: bold;
+    margin-top: 18px;
+    margin-bottom: 8px;
+}
+
+main .container .colonne .colonna .offerta .almese p{
+    color: #B9CFE5;
+}
+
