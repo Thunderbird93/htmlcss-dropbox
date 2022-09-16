@@ -21,6 +21,11 @@ body {
     max-width: 1918px;
 }  
 
+a {
+    text-decoration: none;
+    color: #828283;
+}
+
 
 /*Header*/
 /*Header*/
@@ -33,7 +38,7 @@ header {
 
 header .container-top {
     height: 100%;
-    margin: 0px 10px 0px;
+    margin: 0px 20px 0px;
 }
 
 header .container-top {
@@ -47,7 +52,7 @@ header .container-top nav ul {
 }
 
 header .container-top li {
-    margin: 10px;
+    padding: 9px 15px;
     display: flex;
     align-items: center;
 }
