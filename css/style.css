@@ -213,6 +213,7 @@ main .container .colonne {
     column-gap: 50px;
 }
 
+
 main .container .colonne .colonna {
     height: 952px;
     width: 296px;
@@ -274,4 +275,74 @@ main .container .colonne .colonna .offerta .colonna-bottom .riga {
 
 .colonna-bottom ul .fa-check {
     list-style: url(../img/check-solid.svg);
+}
+
+main .container .bottom-c {
+    height: 255px;
+    width: 1027px;
+    border: 1px solid #D9D9DB;
+    margin-top: 50px;
+}
+
+main .quadrati {
+    height: 640px;
+    column-count: 3;
+    column-gap: 0px;
+    margin-top: 2000px;
+    /*debug*/
+    background-color: rgb(236, 114, 114);
+}
+
+main .quadrati .quadrato {
+    height: 640px;
+    width: 640px;
+    margin: 0;
+    padding: 0;
+    /*debug*/
+    background-color: #6382d8;
+    border: 1px solid yellowgreen;
+}
+
+main .partner {
+    display: flex;
+    height: 600px;
+    border: 1px solid red;
+    background-color: #828282;
+    margin-right: 13px;
+}
+
+main .partner img {
+    width: 600px;
+}
+
+main .partner .side-text {
+    width: 400px;
+}
+
+main .wrap {
+    height: 1200px;
+    margin-right: 13px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main .wrap img {
+    height: 290px;
+    width: 290px;
+}
+
+main .box {
+    height: 500px;
+    width: 300px;
+}
+
+main .add {
+    height: 500px;
+    border: 1px solid black;
+}
+
+main .container .cta {
+    height: 360px;
+    background-color: #B9CFE5;
 }
