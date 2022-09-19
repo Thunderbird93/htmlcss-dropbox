@@ -13,8 +13,8 @@ li {
 }
 
 .debug {
-    border: 1px solid red;
-    background-color: #dc8e8e;
+    border: 1px solid black;
+    background-color: yellowgreen;
 }
 
 .debug-blu {
@@ -159,7 +159,7 @@ header .container-top nav .right-list li {
     width: 52%;
     background-color: white;
     margin: 0 auto;
-    height: 1300px;
+    
  }
 
  main .container .titolo-due {
@@ -284,24 +284,42 @@ main .container .bottom-c {
     margin-top: 50px;
 }
 
-main .quadrati {
-    height: 640px;
-    column-count: 3;
-    column-gap: 0px;
-    margin-top: 2000px;
-    /*debug*/
+/*Container-sq*/
+/*Container-sq*/
+/*Container-sq*/
+
+
+main .container-sq {
+    width: 640px;
     background-color: rgb(236, 114, 114);
 }
 
+
+main .quadrati {
+    display: flex;
+    justify-content: center;
+}
+
 main .quadrati .quadrato {
-    height: 640px;
     width: 640px;
+    height: 640px;
     margin: 0;
     padding: 0;
-    /*debug*/
     background-color: #6382d8;
-    border: 1px solid yellowgreen;
+    display: flex;
+    flex-wrap: wrap;
 }
+
+
+main .quadrati .quadrato .qq {
+    height: 320px;
+    width: 320px;
+    border: 1px solid white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
 
 main .partner {
     display: flex;
@@ -313,6 +331,10 @@ main .partner {
 
 main .partner img {
     width: 600px;
+}
+
+main .partner .side-text {
+    width: 400px;
 }
 
 main .partner .side-text {
@@ -345,4 +367,26 @@ main .add {
 main .container .cta {
     height: 360px;
     background-color: #B9CFE5;
+    display: flex;
+    justify-content: space-between;
 }
+
+main .container .domande {
+    height: 724px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+footer {
+    height: 567px;
+    background-color: black;
+    color: white;
+}
+
+footer .footer-up {
+    display: flex;
+    width: 52%;
+    margin: 0 auto;
+}
+
+
