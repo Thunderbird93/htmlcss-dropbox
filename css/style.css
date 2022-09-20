@@ -20,6 +20,10 @@ a {
     text-decoration: none;
 }
 
+.debug {
+    border: 1px solid black;
+}
+
 
 /*Header*/
 /*Header*/
@@ -213,13 +217,15 @@ main .container .colonne .colonna {
     border: 1px solid #D9D9DB;
 }
 
-main .container .colonne .colonna .user{
+main .user{
     height: 40px;
     border-bottom: 1px solid #D9D9DB;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+
 
 main .container .colonne .colonna .offerta {
     margin: 35px;
@@ -272,7 +278,7 @@ main .container .colonne .colonna .offerta .colonna-bottom .riga {
 
 main .container .bottom-c {
     height: 255px;
-    width: 1027px;
+    width: 950px;
     border: 1px solid #D9D9DB;
     margin-top: 50px;
 }
@@ -374,6 +380,10 @@ main .container .domande {
     border: 1px solid black;
 }
 
+/*Footer*/
+/*Footer*/
+/*Footer*/
+
 footer {
     height: 567px;
     background-color: black;
@@ -385,5 +395,6 @@ footer .footer-up {
     width: 52%;
     margin: 0 auto;
 }
+
 
 
